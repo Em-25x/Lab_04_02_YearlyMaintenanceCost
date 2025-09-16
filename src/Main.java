@@ -12,5 +12,10 @@ public class Main
         double homeCostSpring = 100;
         double homeCostFall = 125;
         double homeMaintenanceCost = 0;
+        homeMaintenanceCost = homeCostWinter + homeCostSpring + homeCostFall + homeCostSummer;
+
+        System.out.println("The total home maintenance cost is $" + homeMaintenanceCost + ", given that your summer cost is $" +
+                homeCostSummer + ", winter cost is $" + homeCostWinter + ", spring cost is $" + homeCostSpring +
+                ", and your fall cost is $" + homeCostFall);
    }
 }
